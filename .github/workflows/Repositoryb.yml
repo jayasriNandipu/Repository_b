@@ -1,9 +1,11 @@
-# Repo A: .github/workflows/use-external.yml
+name: Caller Workflow
+
 on:
   workflow_dispatch:
 
 jobs:
-  call-external:
-    uses: username/repo-b/.github/workflows/reusable.yml@main
+  call-reusable:
+    uses: your-username/your-repo/.github/workflows/reusable.yml@main
     with:
-      message: "Triggered from Repo A"
+      who-to-greet: "GitHub User"
+
