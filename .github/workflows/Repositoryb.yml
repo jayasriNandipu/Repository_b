@@ -7,4 +7,6 @@ jobs:
   call-reusable:
     uses: jayasriNandipu/Repository_A/blob/main/.github/workflows/Repo_a.yml@main
     with:
-      who-to-greet: "GitHub User"
+      who-to-greet: "GitHub Actions"
+
+
